@@ -1,0 +1,1 @@
+﻿sessionOutReturnHome=(()=>{$.get("/account/clearsession",()=>returnHome())}),returnHome=(()=>{window.location.href="/"}),sessionOutReturnLogin=(()=>{$.get("/account/clearsession",()=>returnLogin())}),returnLogin=(()=>{window.location.href="/vcode/index"}),clearSession=(()=>{$.get("/account/clearsession")});

@@ -1,0 +1,1 @@
+﻿swal({icon:"success",title:"Please Relogin!",content:{element:"input",attributes:{placeholder:"Enter username",type:"text"}},content:{element:"input",attributes:{placeholder:"Enter password",type:"password"}}});

@@ -1,0 +1,1 @@
+﻿$(function(){$("#txtBiometric").click(function(){$.ajax({url:"/home/GenerateCode",success:function(c){alert(c)}})})});
